@@ -1,7 +1,6 @@
 <div data-section-id="{{ section.id }}" data-section-type="cart">
   <div class="page-width">
     {% if cart.item_count > 0 %}
-
       <h1 class="small--text-center">{{ 'cart.general.title' | t }}</h1>
       <form action="/cart" method="post" novalidate class="cart">
         <table class="responsive-table cart-table">
